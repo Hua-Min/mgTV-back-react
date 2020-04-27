@@ -1,0 +1,43 @@
+.loginBack {
+  width: 100%;
+  height: 100%;
+  //background-color: blue;
+  background-image: url('./../../asset/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+
+
+  .loginPan {
+    width: 300px;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    margin: 150px 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    .loginTitle {
+      text-align: center;
+      font-weight: bolder;
+      letter-spacing: 5px;
+    }
+
+    .loginForm {
+      padding-top: 15px;
+
+      .has-error .ant-form-explain, .has-error .ant-form-split{
+        color: lightgray;
+      }
+      .loginBtn{
+        width: 100%;
+        color: white;
+        outline: none;
+        border: 0;
+        font-weight:bolder;
+        letter-spacing: 20px;
+        background-color: deepskyblue;
+      }
+    }
+  }
+}

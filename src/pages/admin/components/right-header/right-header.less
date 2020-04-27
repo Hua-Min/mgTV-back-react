@@ -1,0 +1,64 @@
+.header {
+  background: #fff;
+  padding: 0;
+  position: relative;
+
+  .trigger {
+    position: absolute;
+  }
+
+  .top {
+    text-align: right;
+    margin-left: 60px;
+    padding-right: 25px;
+    //background-color: blue;
+    line-height: 32px;
+    border-bottom:solid 1px gray;
+
+    .user{
+      margin-right:20px ;
+    }
+
+  }
+
+  .bottom {
+    margin-left: 60px;
+    //background-color: green;
+    line-height: 32px;
+
+    display: flex;
+
+    .left{
+      //flex: 1;
+      //background-color: green;
+      padding-top: 5px;
+      position: relative;
+
+      &::after{
+        content:"";
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        top: 30px;
+        border:solid 10px transparent ;
+        border-top:solid 10px #fff ;
+      }
+    }
+    .right{
+      flex: 1;
+      padding-right: 25px;
+      text-align: right;
+      //background-color: green;
+
+      .date{
+        margin-right: 15px;
+      }
+      img{
+        height: 20px;
+      }
+    }
+
+
+  }
+}
